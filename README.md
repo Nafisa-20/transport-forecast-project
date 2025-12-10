@@ -1,11 +1,11 @@
-# 📊  Transport Ridership Forecasting  
+#  Transport Ridership Forecasting  
 A complete end-to-end data analysis and forecasting project using Python, Prophet, and Jupyter Notebook.
 
 This project analyzes multi-year ridership data across several  transport routes, extracts insights, detects anomalies, and produces 7-day ridership forecasts. It includes a full EDA pipeline, forecasting models, visual dashboards, and structured reporting.
 
 ---
 
-## 🚀 Project Objectives  
+# Project Objectives  
 - Perform Exploratory Data Analysis (EDA)  
 - Identify trends, seasonality, and anomalies  
 - Build 7-day forecasts using Facebook Prophet  
@@ -15,7 +15,7 @@ This project analyzes multi-year ridership data across several  transport routes
 
 ---
 
-## 🗂️ Dataset Overview  
+# Dataset Overview  
 The dataset contains daily ridership counts for:
 
 - **Local Route**  
@@ -30,29 +30,29 @@ Time Span: Multiple years
 
 ---
 
-## 🔍 Key Insights
+# Key Insights
 
-### 1️⃣ Weekly Seasonality  
+1. Weekly Seasonality  
 Ridership is consistently higher on weekdays and lower on weekends — especially for School and Peak Service routes.
 
-### 2️⃣ Pandemic Impact (2020–2021)  
+2.Pandemic Impact (2020–2021)  
 A major drop in ridership occurs during COVID-19 lockdown periods.
 
-### 3️⃣ Post-Pandemic Recovery  
+3. Post-Pandemic Recovery  
 After 2022, ridership trends show recovery, especially in Local and Rapid Routes.
 
-### 4️⃣ Route-Specific Patterns  
+4. Route-Specific Patterns  
 - **Local & Rapid:** High, stable usage  
 - **Peak Service:** Office-hour dependent  
 - **School:** Vacation-sensitive with strong dips  
 - **Light Rail:** Steady moderate ridership  
 
-### 5️⃣ Seasonal Dips  
+5. Seasonal Dips  
 Certain months show notable drops due to holidays, festivals, or school vacations.
 
 ---
 
-## 📊 Insights Dashboard  
+# Insights Dashboard  
 A 6-panel dashboard summarizes major insights:
 
 - Overall multi-year trend  
@@ -62,12 +62,12 @@ A 6-panel dashboard summarizes major insights:
 - Sudden drops / anomaly detection  
 - Forecast preview  
 
-📁 **Dashboard File:**  
+ **Dashboard File:**  
 `results/insights_images/dashboard_insights.png`
 
 ---
 
-## 🔮 Forecasting Model  
+# Forecasting Model  
 
 ### Model Used: **Facebook Prophet**  
 Prophet is ideal for business time-series because it:  
@@ -83,12 +83,12 @@ Prophet is ideal for business time-series because it:
 - Rapid Route  
 - School  
 
-📁 Forecast Output Files:  
+ Forecast Output Files:  
 `results/forecast_<route>.csv`
 
 ---
 
-## 🧪 Evaluation Metrics  
+# Evaluation Metrics  
 Metrics used to assess forecasting performance:
 
 - **MAE — Mean Absolute Error**  
@@ -100,19 +100,19 @@ Metric files (if generated) stored in:
 
 ---
 
-## 🛠️ How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Install Dependencies  
+## Install Dependencies  
 ```bash
 pip install prophet pandas numpy matplotlib seaborn scikit-learn
 ```
 
-### 2️⃣ Open the Notebook  
+## Open the Notebook  
 ```bash
 jupyter notebook notebooks/analysis_and_forecast.ipynb
 ```
 
-### 3️⃣ Run All Cells  
+## Run All Cells  
 Executing the notebook will automatically:
 
 - Load and preprocess the dataset  
@@ -123,19 +123,19 @@ Executing the notebook will automatically:
 
 ---
 
-## 📝 Reports Included
+##  Reports Included
 
-### 📘 Insight Report  
+### Insight Report  
 Detailed summary of insights, dashboards, and CSV analyses.  
 **Path:** `reports/insight_report.md`
 
-### 📙 Technical Report  
+###  Technical Report  
 Explains forecasting methodology, Prophet model reasoning, and evaluation.  
 **Path:** `reports/technical_report.md`
 
 ---
 
-## 📦 Project Structure  
+##  Project Structure  
 
 ```
 transport-forecast-project/
@@ -176,7 +176,7 @@ transport-forecast-project/
 
 ---
 
-## 💼 Why This Project Stands Out  
+##  Why This Project Stands Out  
 
 This project showcases real-world data science skills used in:
 
@@ -185,11 +185,12 @@ This project showcases real-world data science skills used in:
 - Business operations & planning  
 - Data science and ML engineering  
 
-### 🔑 Strengths Highlighted:
+###  Strengths Highlighted:
 - Advanced **time-series forecasting** using Prophet  
 - **Seasonality, trend, and anomaly analysis**  
 - Clean and structured **EDA workflow**  
 - Professional **data visualizations and dashboards**  
 - Reproducible, industry-standard **project structure**  
 - Business-oriented, actionable **insights and reports**
+
 
